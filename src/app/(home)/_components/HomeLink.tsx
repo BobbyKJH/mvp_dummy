@@ -4,7 +4,7 @@ import Link from "next/link";
 interface Props {
   href: string;
   title: string;
-  icon: any;
+  icon: React.ReactNode;
 }
 
 const HomeLink: React.FC<Props> = ({ href, title, icon }) => {

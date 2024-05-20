@@ -17,3 +17,17 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.swiper-button-prev {
+  opacity: 1;
+  padding: 15px 5px;
+  border-radius: 20px;
+  color: #000 !important;
+}
+
+.swiper-button-next {
+  opacity: 1;
+  padding: 15px 5px;
+  border-radius: 20px;
+  color: #000 !important;
+}

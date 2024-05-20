@@ -19,12 +19,12 @@ const HomePage: React.FC = () => {
       </div>
 
       <div className="grid mx-auto my-4 w-full sm:grid-cols-3 xl:grid-cols-4 gap-6 max-w-[1000px]">
+        {/* <HomeCard />
         <HomeCard />
         <HomeCard />
         <HomeCard />
         <HomeCard />
-        <HomeCard />
-        <HomeCard />
+        <HomeCard /> */}
       </div>
     </div>
   );

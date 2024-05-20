@@ -1,7 +1,7 @@
 import React from "react";
 
 const KitPage: React.FC = () => {
-  return <>Kit</>;
+  return <>hellower</>;
 };
 
 export default KitPage;

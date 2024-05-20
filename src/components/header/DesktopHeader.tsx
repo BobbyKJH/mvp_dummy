@@ -1,11 +1,14 @@
 // "use client";
-import setOnPath from "@/utils/setOnPath";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
 const DesktopHeader: React.FC = () => {
-  const router = usePathname();
+  const pathName = usePathname();
+
+  const setOnPath = (path: string): boolean => {
+    return pathName === "/" + path;
+  };
 
   return (
     <nav className="font-semibold text-lg hidden md:flex">
